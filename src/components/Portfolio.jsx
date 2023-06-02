@@ -1,36 +1,32 @@
 import React from "react";
-import arrayDestruct from "../assets/portfolio/arrayDestruct.jpg";
-import installNode from "../assets/portfolio/installNode.jpg";
-import navbar from "../assets/portfolio/navbar.jpg";
-import reactParallax from "../assets/portfolio/reactParallax.jpg";
-import reactSmooth from "../assets/portfolio/reactSmooth.jpg";
-import reactWeather from "../assets/portfolio/reactWeather.jpg";
+import project from "../assets/portfolio/project.jpg";
+//import ProjectName from "../assets/portfolio/ProjectName.jpg";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: project,
     },
     {
       id: 2,
-      src: installNode,
+      src: project,
     },
     {
       id: 3,
-      src: navbar,
+      src: project,
     },
     {
       id: 4,
-      src: reactParallax,
+      src: project,
     },
     {
       id: 5,
-      src: reactSmooth,
+      src: project,
     },
     {
       id: 5,
-      src: reactWeather,
+      src: project,
     },
   ];
 
